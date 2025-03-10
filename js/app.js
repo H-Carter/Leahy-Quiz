@@ -370,13 +370,25 @@ function updateDrinkList() {
 
 function calculateResult() {
     const matchedDrinks = drinks.filter(drink =>
-        Object.entries(answers).every(([qId, answer]) => drink.matches[qId][answer])
+        Object.entries(answers).every(([qId, answer]) =>
+            drink.matches[qId] && drink.matches[qId][answer] === true
+        )
     );
 
+    const resultDiv = document.getElementById("result");
+    const drinkNameElement = document.getElementById("drink-name");
+
     document.getElementById("quiz").classList.add("hidden");
-    document.getElementById("result").classList.remove("hidden");
-    document.getElementById("drink-name").textContent = matchedDrinks.length ? matchedDrinks[0].name : "No Match Found";
+    resultDiv.classList.remove("hidden");
+
+    if (matchedDrinks.length > 0) {
+        const randomDrink = matchedDrinks[Math.floor(Math.random() * matchedDrinks.length)];
+        drinkNameElement.textContent = randomDrink.name;
+    } else {
+        drinkNameElement.textContent = "No Match Found";
+    }
 }
+
 
 updateDrinkList();
 loadQuestion();
