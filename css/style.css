@@ -19,7 +19,7 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
-    font-family: "RocknRoll One", serif;
+    font-family: "Georgia", serif;
 }
 
 
@@ -98,63 +98,107 @@ textarea {
 body {
     padding: 0px;
     margin: 0px;
+    text-align: center;
 }
 
-.question-container {
-    position: absolute;
-    background-color: rgba(255, 255, 255, 0.5);
+.logo {
+    max-width: 120px;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 20px;
-    margin: 10px;
-    top: 38vh;
-    left: 39vw;
-    width: 20vw;
-    height: 20vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    backdrop-filter: blur(10px);
+    width: 85vw;
 }
 
-.answers {
-    width: 100vw;
-    height: 100vh;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
+button {
+    border: 1px solid rgb(77, 77, 77);
+    broder-radius: 5px;
+    background-color: #f89729;
+    padding: 50px;
+    margin: 5px;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    transition-duration: 100ms;
 }
 
-.choice {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 3px solid rgb(40, 40, 53);
-    background-position: center center;
-    background-size: cover;
-}
-
-.choice h3 {
-    font-size: 4rem;
-    font-weight: 700;
+button:hover {
     color: white;
-    -webkit-text-stroke: 1px black;
+    transform: scale(105%);
 }
 
-#\31-a {
-    background-image: url('/img/spring.jpeg');
+.options {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 60vh
 }
 
-#\31 -b {
-    background-image: url('/img/summer.jpeg');
+.options button {
+    margin: 20px 0px;
 }
 
-#\31-c {
-    background-image: url('/img/fall.jpeg');
+#restart-button {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 14px;
+    padding: 5px;
 }
 
-#\31-d {
-    background-image: url('/img/winter.jpeg');
+.drink-name {
+    font-size: 3rem;
+    font-weight: bold;
+    background: linear-gradient(90deg, #ff5722, #ff4081, #3f51b5);
+    background-size: 200% 100%;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: reveal 2s ease forwards, shine 3s infinite linear;
+    opacity: 0;
+    /* Start hidden */
+}
+
+.drink-list {
+    position: absolute;
+    right: 0px;
+    height: 100vh;
+    top: 0px;
+    text-align: left;
+    background-color: #eee;
+    padding: 10px;
+    width: 15vw;
+}
+
+.drink-list .drink-item {
+    margin: 5px 0px;
+}
+
+@keyframes reveal {
+    from {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes shine {
+    from {
+        background-position: -200% 0;
+    }
+    to {
+        background-position: 200% 0;
+    }
 }
 
 
