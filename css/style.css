@@ -111,13 +111,13 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
     width: 85vw;
+    height: 100vh;
 }
 
 button {
     border: 1px solid rgb(77, 77, 77);
-    broder-radius: 5px;
+    border-radius: 5px;
     background-color: #f89729;
     padding: 50px;
     margin: 5px;
@@ -134,15 +134,16 @@ button:hover {
 
 .options {
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    height: 60vh
 }
 
 .options button {
     margin: 20px 0px;
+    width: 200px;
+    height: 200px;
 }
 
 #restart-button {
@@ -175,6 +176,7 @@ button:hover {
     background-color: #eee;
     padding: 10px;
     width: 15vw;
+    overflow-y: scroll;
 }
 
 .drink-list .drink-item {
