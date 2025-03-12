@@ -111,7 +111,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 85vw;
+    width: 100vw;
     height: 100vh;
 }
 
@@ -123,14 +123,15 @@ body {
 }
 
 button {
-    border: 1px solid rgb(77, 77, 77);
+    border: 2px solid black;
     border-radius: 5px;
     background-color: #f89729;
-    padding: 50px;
     margin: 5px;
     cursor: pointer;
     font-family: "Roboto", sans-serif;
     font-size: 20px;
+    font-weight: bold;
+    color: black;
     transition-duration: 100ms;
 }
 
@@ -145,14 +146,12 @@ button:hover {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    height: 60vh;
-    width: 50vw;
 }
 
 .options button {
-    margin: 20px 0px;
-    width: 200px;
-    height: 200px;
+    margin: 10px;
+    width: 180px;
+    height: 180px;
 }
 
 #restart-button {
@@ -160,7 +159,9 @@ button:hover {
     top: 0px;
     left: 0px;
     font-size: 14px;
-    padding: 5px;
+    font-weight: normal;
+    color: black;
+    border: 1px solid black;
 }
 
 .drink-name {
@@ -177,19 +178,7 @@ button:hover {
 }
 
 .drink-list {
-    position: absolute;
-    right: 0px;
-    height: 100vh;
-    top: 0px;
-    text-align: left;
-    background-color: #eee;
-    padding: 10px;
-    width: 15vw;
-    overflow-y: scroll;
-}
-
-.drink-list .drink-item {
-    margin: 5px 0px;
+    display: none;
 }
 
 @keyframes reveal {
@@ -302,8 +291,37 @@ button:hover {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+@media only screen and (min-width: 1280px) {
     /* Style adjustments for viewports that meet the condition */
+    .container {
+        width: calc(100vw - 275px);
+    }
+    /*
+    .options {
+        width: 50vw;
+    }
+    */
+    .options button {
+        margin: 20px;
+        width: clamp(180px, 10vw, 200px);
+        height: clamp(180px, 10vw, 200px);
+    }
+    .drink-list {
+        width: 275px;
+        display: block;
+        position: absolute;
+        right: 0px;
+        height: 100vh;
+        top: 0px;
+        text-align: left;
+        background-color: #eee;
+        overflow-y: scroll;
+    }
+    .drink-list h3,
+    .drink-list .drink-item {
+        font-size: 15px;
+        margin: 5px;
+    }
 }
 
 @media print,
