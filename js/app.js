@@ -17,7 +17,7 @@ const questions = [{
     {
         "id": 4,
         "question": "How sweet do you like it?",
-        "options": ["No/little added sugar, please", "Lets be mindful but we still want big flavor", "Just make it delicious"]
+        "options": ["No/little added sugar, please", "Let's be mindful but we still want big flavor", "Just make it delicious"]
     },
     {
         "id": 5,
@@ -36,7 +36,7 @@ const drinks = [{
             "1": { "Spring": false, "Summer": false, "Fall": true, "Winter": true },
             "2": { "None": true, "Slightly": false, "Fully Charged": false },
             "3": { "Safe, familiar, ubiquitous": false, "Well known with a little twist": true, "We make the trends!": true },
-            "4": { "No/little added sugar, please": true, "Lets be mindful but we still want big flavor": true, "Just make it delicious": true },
+            "4": { "No/little added sugar, please": true, "Let's be mindful but we still want big flavor": true, "Just make it delicious": true },
             "5": { "Asia": false, "Tropical Beach": false, "Farm Fresh American": true, "Latin America": false },
             "6": { "None": true, "Hydration": true, "Gut Health": true, "Cognitive Function": true, "Immunity": true, "Energy": false, "Protein": false }
         }
@@ -47,7 +47,7 @@ const drinks = [{
             "1": { "Spring": false, "Summer": false, "Fall": true, "Winter": true },
             "2": { "None": false, "Slightly": true, "Fully Charged": false },
             "3": { "Safe, familiar, ubiquitous": false, "Well known with a little twist": true, "We make the trends!": true },
-            "4": { "No/little added sugar, please": true, "Lets be mindful but we still want big flavor": true, "Just make it delicious": true },
+            "4": { "No/little added sugar, please": true, "Let's be mindful but we still want big flavor": true, "Just make it delicious": true },
             "5": { "Asia": false, "Tropical Beach": false, "Farm Fresh American": true, "Latin America": false },
             "6": { "None": true, "Hydration": true, "Gut Health": true, "Cognitive Function": true, "Immunity": true, "Energy": true, "Protein": false }
         }
@@ -58,7 +58,7 @@ const drinks = [{
             "1": { "Spring": false, "Summer": false, "Fall": true, "Winter": true },
             "2": { "None": false, "Slightly": false, "Fully Charged": true },
             "3": { "Safe, familiar, ubiquitous": false, "Well known with a little twist": true, "We make the trends!": true },
-            "4": { "No/little added sugar, please": true, "Lets be mindful but we still want big flavor": true, "Just make it delicious": true },
+            "4": { "No/little added sugar, please": true, "Let's be mindful but we still want big flavor": true, "Just make it delicious": true },
             "5": { "Asia": false, "Tropical Beach": false, "Farm Fresh American": true, "Latin America": false },
             "6": { "None": true, "Hydration": true, "Gut Health": true, "Cognitive Function": true, "Immunity": true, "Energy": true, "Protein": false }
         }
@@ -69,7 +69,7 @@ const drinks = [{
             "1": { "Spring": true, "Summer": true, "Fall": true, "Winter": true },
             "2": { "None": false, "Slightly": true, "Fully Charged": false },
             "3": { "Safe, familiar, ubiquitous": true, "Well known with a little twist": true, "We make the trends!": true },
-            "4": { "No/little added sugar, please": true, "Lets be mindful but we still want big flavor": true, "Just make it delicious": true },
+            "4": { "No/little added sugar, please": true, "Let's be mindful but we still want big flavor": true, "Just make it delicious": true },
             "5": { "Asia": true, "Tropical Beach": false, "Farm Fresh American": false, "Latin America": false },
             "6": { "None": true, "Hydration": true, "Gut Health": true, "Cognitive Function": true, "Immunity": true, "Energy": true, "Protein": false }
         }
@@ -80,7 +80,7 @@ const drinks = [{
             "1": { "Spring": true, "Summer": true, "Fall": false, "Winter": false },
             "2": { "None": false, "Slightly": true, "Fully Charged": false },
             "3": { "Safe, familiar, ubiquitous": false, "Well known with a little twist": true, "We make the trends!": true },
-            "4": { "No/little added sugar, please": true, "Lets be mindful but we still want big flavor": true, "Just make it delicious": true },
+            "4": { "No/little added sugar, please": true, "Let's be mindful but we still want big flavor": true, "Just make it delicious": true },
             "5": { "Asia": true, "Tropical Beach": false, "Farm Fresh American": true, "Latin America": false },
             "6": { "None": true, "Hydration": true, "Gut Health": true, "Cognitive Function": true, "Immunity": true, "Energy": true, "Protein": false }
         }
@@ -91,7 +91,7 @@ const drinks = [{
             "1": { "Spring": false, "Summer": false, "Fall": true, "Winter": true },
             "2": { "None": true, "Slightly": false, "Fully Charged": false },
             "3": { "Safe, familiar, ubiquitous": true, "Well known with a little twist": true, "We make the trends!": true },
-            "4": { "No/little added sugar, please": true, "Lets be mindful but we still want big flavor": true, "Just make it delicious": true },
+            "4": { "No/little added sugar, please": true, "Let's be mindful but we still want big flavor": true, "Just make it delicious": true },
             "5": { "Asia": false, "Tropical Beach": true, "Farm Fresh American": true, "Latin America": false },
             "6": { "None": true, "Hydration": true, "Gut Health": true, "Cognitive Function": true, "Immunity": true, "Energy": false, "Protein": false }
         }
@@ -102,7 +102,7 @@ const drinks = [{
             "1": { "Spring": false, "Summer": false, "Fall": true, "Winter": true },
             "2": { "None": true, "Slightly": false, "Fully Charged": false },
             "3": { "Safe, familiar, ubiquitous": true, "Well known with a little twist": true, "We make the trends!": true },
-            "4": { "No/little added sugar, please": true, "Lets be mindful but we still want big flavor": true, "Just make it delicious": true },
+            "4": { "No/little added sugar, please": true, "Let's be mindful but we still want big flavor": true, "Just make it delicious": true },
             "5": { "Asia": true, "Tropical Beach": false, "Farm Fresh American": false, "Latin America": true },
             "6": { "None": true, "Hydration": true, "Gut Health": true, "Cognitive Function": true, "Immunity": true, "Energy": false, "Protein": false }
         }
@@ -113,7 +113,7 @@ const drinks = [{
             "1": { "Spring": false, "Summer": false, "Fall": true, "Winter": true },
             "2": { "None": false, "Slightly": true, "Fully Charged": false },
             "3": { "Safe, familiar, ubiquitous": true, "Well known with a little twist": true, "We make the trends!": true },
-            "4": { "No/little added sugar, please": true, "Lets be mindful but we still want big flavor": true, "Just make it delicious": true },
+            "4": { "No/little added sugar, please": true, "Let's be mindful but we still want big flavor": true, "Just make it delicious": true },
             "5": { "Asia": false, "Tropical Beach": true, "Farm Fresh American": true, "Latin America": false },
             "6": { "None": true, "Hydration": true, "Gut Health": true, "Cognitive Function": true, "Immunity": true, "Energy": true, "Protein": false }
         }
@@ -124,7 +124,7 @@ const drinks = [{
             "1": { "Spring": false, "Summer": false, "Fall": true, "Winter": true },
             "2": { "None": false, "Slightly": true, "Fully Charged": false },
             "3": { "Safe, familiar, ubiquitous": true, "Well known with a little twist": true, "We make the trends!": true },
-            "4": { "No/little added sugar, please": true, "Lets be mindful but we still want big flavor": true, "Just make it delicious": true },
+            "4": { "No/little added sugar, please": true, "Let's be mindful but we still want big flavor": true, "Just make it delicious": true },
             "5": { "Asia": true, "Tropical Beach": false, "Farm Fresh American": false, "Latin America": true },
             "6": { "None": true, "Hydration": true, "Gut Health": true, "Cognitive Function": true, "Immunity": true, "Energy": true, "Protein": false }
         }
@@ -135,7 +135,7 @@ const drinks = [{
             "1": { "Spring": false, "Summer": false, "Fall": true, "Winter": true },
             "2": { "None": false, "Slightly": false, "Fully Charged": true },
             "3": { "Safe, familiar, ubiquitous": true, "Well known with a little twist": true, "We make the trends!": true },
-            "4": { "No/little added sugar, please": true, "Lets be mindful but we still want big flavor": true, "Just make it delicious": true },
+            "4": { "No/little added sugar, please": true, "Let's be mindful but we still want big flavor": true, "Just make it delicious": true },
             "5": { "Asia": false, "Tropical Beach": true, "Farm Fresh American": true, "Latin America": false },
             "6": { "None": true, "Hydration": true, "Gut Health": true, "Cognitive Function": true, "Immunity": true, "Energy": true, "Protein": false }
         }
@@ -146,7 +146,7 @@ const drinks = [{
             "1": { "Spring": false, "Summer": false, "Fall": true, "Winter": true },
             "2": { "None": false, "Slightly": false, "Fully Charged": true },
             "3": { "Safe, familiar, ubiquitous": true, "Well known with a little twist": true, "We make the trends!": true },
-            "4": { "No/little added sugar, please": true, "Lets be mindful but we still want big flavor": true, "Just make it delicious": true },
+            "4": { "No/little added sugar, please": true, "Let's be mindful but we still want big flavor": true, "Just make it delicious": true },
             "5": { "Asia": true, "Tropical Beach": false, "Farm Fresh American": false, "Latin America": true },
             "6": { "None": true, "Hydration": true, "Gut Health": true, "Cognitive Function": true, "Immunity": true, "Energy": true, "Protein": false }
         }
@@ -157,7 +157,7 @@ const drinks = [{
             "1": { "Spring": false, "Summer": false, "Fall": false, "Winter": true },
             "2": { "None": true, "Slightly": true, "Fully Charged": true },
             "3": { "Safe, familiar, ubiquitous": false, "Well known with a little twist": true, "We make the trends!": true },
-            "4": { "No/little added sugar, please": false, "Lets be mindful but we still want big flavor": true, "Just make it delicious": true },
+            "4": { "No/little added sugar, please": false, "Let's be mindful but we still want big flavor": true, "Just make it delicious": true },
             "5": { "Asia": false, "Tropical Beach": false, "Farm Fresh American": true, "Latin America": false },
             "6": { "None": true, "Hydration": true, "Gut Health": true, "Cognitive Function": true, "Immunity": true, "Energy": true, "Protein": false }
         }
@@ -168,7 +168,7 @@ const drinks = [{
             "1": { "Spring": false, "Summer": false, "Fall": false, "Winter": true },
             "2": { "None": true, "Slightly": true, "Fully Charged": true },
             "3": { "Safe, familiar, ubiquitous": false, "Well known with a little twist": true, "We make the trends!": true },
-            "4": { "No/little added sugar, please": true, "Lets be mindful but we still want big flavor": true, "Just make it delicious": true },
+            "4": { "No/little added sugar, please": true, "Let's be mindful but we still want big flavor": true, "Just make it delicious": true },
             "5": { "Asia": true, "Tropical Beach": true, "Farm Fresh American": true, "Latin America": true },
             "6": { "None": true, "Hydration": true, "Gut Health": true, "Cognitive Function": true, "Immunity": true, "Energy": true, "Protein": false }
         }
@@ -179,7 +179,7 @@ const drinks = [{
             "1": { "Spring": true, "Summer": true, "Fall": false, "Winter": false },
             "2": { "None": true, "Slightly": false, "Fully Charged": false },
             "3": { "Safe, familiar, ubiquitous": true, "Well known with a little twist": true, "We make the trends!": true },
-            "4": { "No/little added sugar, please": true, "Lets be mindful but we still want big flavor": true, "Just make it delicious": true },
+            "4": { "No/little added sugar, please": true, "Let's be mindful but we still want big flavor": true, "Just make it delicious": true },
             "5": { "Asia": false, "Tropical Beach": false, "Farm Fresh American": true, "Latin America": true },
             "6": { "None": true, "Hydration": true, "Gut Health": true, "Cognitive Function": true, "Immunity": true, "Energy": false, "Protein": false }
         }
@@ -190,7 +190,7 @@ const drinks = [{
             "1": { "Spring": true, "Summer": true, "Fall": false, "Winter": false },
             "2": { "None": false, "Slightly": true, "Fully Charged": false },
             "3": { "Safe, familiar, ubiquitous": true, "Well known with a little twist": true, "We make the trends!": true },
-            "4": { "No/little added sugar, please": true, "Lets be mindful but we still want big flavor": true, "Just make it delicious": true },
+            "4": { "No/little added sugar, please": true, "Let's be mindful but we still want big flavor": true, "Just make it delicious": true },
             "5": { "Asia": false, "Tropical Beach": false, "Farm Fresh American": true, "Latin America": true },
             "6": { "None": true, "Hydration": true, "Gut Health": true, "Cognitive Function": true, "Immunity": true, "Energy": true, "Protein": false }
         }
@@ -201,7 +201,7 @@ const drinks = [{
             "1": { "Spring": true, "Summer": true, "Fall": false, "Winter": false },
             "2": { "None": false, "Slightly": false, "Fully Charged": true },
             "3": { "Safe, familiar, ubiquitous": true, "Well known with a little twist": true, "We make the trends!": true },
-            "4": { "No/little added sugar, please": true, "Lets be mindful but we still want big flavor": true, "Just make it delicious": true },
+            "4": { "No/little added sugar, please": true, "Let's be mindful but we still want big flavor": true, "Just make it delicious": true },
             "5": { "Asia": false, "Tropical Beach": false, "Farm Fresh American": true, "Latin America": true },
             "6": { "None": true, "Hydration": true, "Gut Health": true, "Cognitive Function": true, "Immunity": true, "Energy": true, "Protein": false }
         }
@@ -212,7 +212,7 @@ const drinks = [{
             "1": { "Spring": true, "Summer": true, "Fall": false, "Winter": false },
             "2": { "None": true, "Slightly": false, "Fully Charged": false },
             "3": { "Safe, familiar, ubiquitous": true, "Well known with a little twist": true, "We make the trends!": true },
-            "4": { "No/little added sugar, please": true, "Lets be mindful but we still want big flavor": true, "Just make it delicious": true },
+            "4": { "No/little added sugar, please": true, "Let's be mindful but we still want big flavor": true, "Just make it delicious": true },
             "5": { "Asia": true, "Tropical Beach": true, "Farm Fresh American": false, "Latin America": false },
             "6": { "None": true, "Hydration": true, "Gut Health": true, "Cognitive Function": true, "Immunity": true, "Energy": false, "Protein": false }
         }
@@ -223,7 +223,7 @@ const drinks = [{
             "1": { "Spring": true, "Summer": true, "Fall": false, "Winter": false },
             "2": { "None": false, "Slightly": true, "Fully Charged": false },
             "3": { "Safe, familiar, ubiquitous": true, "Well known with a little twist": true, "We make the trends!": true },
-            "4": { "No/little added sugar, please": true, "Lets be mindful but we still want big flavor": true, "Just make it delicious": true },
+            "4": { "No/little added sugar, please": true, "Let's be mindful but we still want big flavor": true, "Just make it delicious": true },
             "5": { "Asia": true, "Tropical Beach": true, "Farm Fresh American": false, "Latin America": false },
             "6": { "None": true, "Hydration": true, "Gut Health": true, "Cognitive Function": true, "Immunity": true, "Energy": true, "Protein": false }
         }
@@ -234,7 +234,7 @@ const drinks = [{
             "1": { "Spring": true, "Summer": true, "Fall": false, "Winter": false },
             "2": { "None": false, "Slightly": false, "Fully Charged": true },
             "3": { "Safe, familiar, ubiquitous": true, "Well known with a little twist": true, "We make the trends!": true },
-            "4": { "No/little added sugar, please": true, "Lets be mindful but we still want big flavor": true, "Just make it delicious": true },
+            "4": { "No/little added sugar, please": true, "Let's be mindful but we still want big flavor": true, "Just make it delicious": true },
             "5": { "Asia": true, "Tropical Beach": true, "Farm Fresh American": false, "Latin America": false },
             "6": { "None": true, "Hydration": true, "Gut Health": true, "Cognitive Function": true, "Immunity": true, "Energy": true, "Protein": false }
         }
@@ -245,7 +245,7 @@ const drinks = [{
             "1": { "Spring": true, "Summer": true, "Fall": false, "Winter": false },
             "2": { "None": true, "Slightly": true, "Fully Charged": false },
             "3": { "Safe, familiar, ubiquitous": true, "Well known with a little twist": true, "We make the trends!": true },
-            "4": { "No/little added sugar, please": true, "Lets be mindful but we still want big flavor": false, "Just make it delicious": false },
+            "4": { "No/little added sugar, please": true, "Let's be mindful but we still want big flavor": false, "Just make it delicious": false },
             "5": { "Asia": true, "Tropical Beach": true, "Farm Fresh American": true, "Latin America": true },
             "6": { "None": true, "Hydration": true, "Gut Health": true, "Cognitive Function": true, "Immunity": true, "Energy": true, "Protein": false }
         }
@@ -256,7 +256,7 @@ const drinks = [{
             "1": { "Spring": true, "Summer": true, "Fall": false, "Winter": false },
             "2": { "None": false, "Slightly": false, "Fully Charged": true },
             "3": { "Safe, familiar, ubiquitous": true, "Well known with a little twist": true, "We make the trends!": true },
-            "4": { "No/little added sugar, please": true, "Lets be mindful but we still want big flavor": false, "Just make it delicious": false },
+            "4": { "No/little added sugar, please": true, "Let's be mindful but we still want big flavor": false, "Just make it delicious": false },
             "5": { "Asia": true, "Tropical Beach": true, "Farm Fresh American": true, "Latin America": true },
             "6": { "None": true, "Hydration": true, "Gut Health": true, "Cognitive Function": true, "Immunity": true, "Energy": true, "Protein": false }
         }
@@ -267,7 +267,7 @@ const drinks = [{
             "1": { "Spring": true, "Summer": true, "Fall": true, "Winter": true },
             "2": { "None": true, "Slightly": false, "Fully Charged": false },
             "3": { "Safe, familiar, ubiquitous": true, "Well known with a little twist": true, "We make the trends!": true },
-            "4": { "No/little added sugar, please": true, "Lets be mindful but we still want big flavor": true, "Just make it delicious": true },
+            "4": { "No/little added sugar, please": true, "Let's be mindful but we still want big flavor": true, "Just make it delicious": true },
             "5": { "Asia": true, "Tropical Beach": true, "Farm Fresh American": true, "Latin America": true },
             "6": { "None": true, "Hydration": false, "Gut Health": false, "Cognitive Function": false, "Immunity": false, "Energy": false, "Protein": true }
         }
@@ -278,7 +278,7 @@ const drinks = [{
             "1": { "Spring": false, "Summer": true, "Fall": false, "Winter": false },
             "2": { "None": true, "Slightly": false, "Fully Charged": false },
             "3": { "Safe, familiar, ubiquitous": true, "Well known with a little twist": false, "We make the trends!": false },
-            "4": { "No/little added sugar, please": false, "Lets be mindful but we still want big flavor": true, "Just make it delicious": true },
+            "4": { "No/little added sugar, please": false, "Let's be mindful but we still want big flavor": true, "Just make it delicious": true },
             "5": { "Asia": true, "Tropical Beach": true, "Farm Fresh American": true, "Latin America": true },
             "6": { "None": true, "Hydration": true, "Gut Health": true, "Cognitive Function": true, "Immunity": true, "Energy": false, "Protein": true }
         }
@@ -289,7 +289,7 @@ const drinks = [{
             "1": { "Spring": false, "Summer": true, "Fall": false, "Winter": false },
             "2": { "None": false, "Slightly": false, "Fully Charged": true },
             "3": { "Safe, familiar, ubiquitous": true, "Well known with a little twist": true, "We make the trends!": true },
-            "4": { "No/little added sugar, please": true, "Lets be mindful but we still want big flavor": true, "Just make it delicious": true },
+            "4": { "No/little added sugar, please": true, "Let's be mindful but we still want big flavor": true, "Just make it delicious": true },
             "5": { "Asia": true, "Tropical Beach": true, "Farm Fresh American": true, "Latin America": true },
             "6": { "None": true, "Hydration": true, "Gut Health": true, "Cognitive Function": true, "Immunity": true, "Energy": true, "Protein": false }
         }
@@ -300,7 +300,7 @@ const drinks = [{
             "1": { "Spring": true, "Summer": true, "Fall": true, "Winter": true },
             "2": { "None": true, "Slightly": false, "Fully Charged": false },
             "3": { "Safe, familiar, ubiquitous": true, "Well known with a little twist": false, "We make the trends!": false },
-            "4": { "No/little added sugar, please": false, "Lets be mindful but we still want big flavor": true, "Just make it delicious": false },
+            "4": { "No/little added sugar, please": false, "Let's be mindful but we still want big flavor": true, "Just make it delicious": false },
             "5": { "Asia": true, "Tropical Beach": true, "Farm Fresh American": true, "Latin America": true },
             "6": { "None": true, "Hydration": true, "Gut Health": true, "Cognitive Function": true, "Immunity": true, "Energy": true, "Protein": true }
         }
@@ -311,7 +311,7 @@ const drinks = [{
             "1": { "Spring": true, "Summer": true, "Fall": false, "Winter": false },
             "2": { "None": false, "Slightly": true, "Fully Charged": true },
             "3": { "Safe, familiar, ubiquitous": false, "Well known with a little twist": false, "We make the trends!": true },
-            "4": { "No/little added sugar, please": true, "Lets be mindful but we still want big flavor": true, "Just make it delicious": true },
+            "4": { "No/little added sugar, please": true, "Let's be mindful but we still want big flavor": true, "Just make it delicious": true },
             "5": { "Asia": true, "Tropical Beach": true, "Farm Fresh American": true, "Latin America": true },
             "6": { "None": true, "Hydration": false, "Gut Health": false, "Cognitive Function": false, "Immunity": true, "Energy": true, "Protein": false }
         }
