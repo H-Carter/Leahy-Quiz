@@ -368,9 +368,9 @@ function handleAnswer(questionId, selectedOption) {
     answers[questionId] = selectedOption;
     currentQuestion++;
     loadQuestion();
-    updateDrinkList();
+    //updateDrinkList();
 }
-
+/*
 function updateDrinkList() {
     const filteredDrinks = drinks.filter(drink =>
         Object.keys(answers).length === 0 || // Show all drinks if no answers selected
@@ -393,6 +393,7 @@ function updateDrinkList() {
         drinkListDiv.innerHTML += "<p>No matching drinks yet...</p>";
     }
 }
+*/
 
 function calculateResult() {
     const matchedDrinks = drinks.filter(drink =>
@@ -418,5 +419,5 @@ function calculateResult() {
 }
 
 
-updateDrinkList();
+//updateDrinkList();
 loadQuestion();
