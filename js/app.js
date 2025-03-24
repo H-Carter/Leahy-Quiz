@@ -32,7 +32,7 @@ const questions = [{
 ];
 const drinks = [{
         "name": "Salted Caramel Apple Cider",
-        "img": "/img/fall.jpg",
+        "img": "https://leahy-ifp.com/wp-content/uploads/2025/03/fall.jpeg",
         "matches": {
             "1": { "Spring": false, "Summer": false, "Fall": true, "Winter": true },
             "2": { "None": true, "Slightly": false, "Fully Charged": false },
@@ -44,7 +44,7 @@ const drinks = [{
     },
     {
         "name": "Salted Caramel Apple Cider Refresher",
-        "img": "/img/fall.jpg",
+        "img": "https://leahy-ifp.com/wp-content/uploads/2025/03/fall.jpeg",
         "matches": {
             "1": { "Spring": false, "Summer": false, "Fall": true, "Winter": true },
             "2": { "None": false, "Slightly": true, "Fully Charged": false },
@@ -56,7 +56,7 @@ const drinks = [{
     },
     {
         "name": "Salted Caramel Apple Cider Energy",
-        "img": "/img/fall.jpg",
+        "img": "https://leahy-ifp.com/wp-content/uploads/2025/03/fall.jpeg",
         "matches": {
             "1": { "Spring": false, "Summer": false, "Fall": true, "Winter": true },
             "2": { "None": false, "Slightly": false, "Fully Charged": true },
@@ -68,7 +68,7 @@ const drinks = [{
     },
     {
         "name": "Matcha",
-        "img": "/img/matcha.png",
+        "img": "https://leahy-ifp.com/wp-content/uploads/2025/03/matcha.png",
         "matches": {
             "1": { "Spring": true, "Summer": true, "Fall": true, "Winter": true },
             "2": { "None": false, "Slightly": true, "Fully Charged": false },
@@ -80,7 +80,7 @@ const drinks = [{
     },
     {
         "name": "Strawberry Matcha",
-        "img": "/img/strawberry-matcha.png",
+        "img": "https://leahy-ifp.com/wp-content/uploads/2025/03/strawberry-matcha.png",
         "matches": {
             "1": { "Spring": true, "Summer": true, "Fall": false, "Winter": false },
             "2": { "None": false, "Slightly": true, "Fully Charged": false },
@@ -92,7 +92,7 @@ const drinks = [{
     },
     {
         "name": "Cran Oran Spice",
-        "img": "/img/cran-orange.png",
+        "img": "https://leahy-ifp.com/wp-content/uploads/2025/03/cran-orange.png",
         "matches": {
             "1": { "Spring": false, "Summer": false, "Fall": true, "Winter": true },
             "2": { "None": true, "Slightly": false, "Fully Charged": false },
@@ -104,7 +104,7 @@ const drinks = [{
     },
     {
         "name": "Cran Mandarin Spice",
-        "img": "/img/fall.jpg",
+        "img": "https://leahy-ifp.com/wp-content/uploads/2025/03/fall.jpeg",
         "matches": {
             "1": { "Spring": false, "Summer": false, "Fall": true, "Winter": true },
             "2": { "None": true, "Slightly": false, "Fully Charged": false },
@@ -116,7 +116,7 @@ const drinks = [{
     },
     {
         "name": "Cran Oran Spice Refresher",
-        "img": "/img/cran-orange.png",
+        "img": "https://leahy-ifp.com/wp-content/uploads/2025/03/cran-orange.png",
         "matches": {
             "1": { "Spring": false, "Summer": false, "Fall": true, "Winter": true },
             "2": { "None": false, "Slightly": true, "Fully Charged": false },
@@ -128,7 +128,7 @@ const drinks = [{
     },
     {
         "name": "Cran Mandarin Spice Refresher",
-        "img": "/img/fall.jpg",
+        "img": "https://leahy-ifp.com/wp-content/uploads/2025/03/fall.jpeg",
         "matches": {
             "1": { "Spring": false, "Summer": false, "Fall": true, "Winter": true },
             "2": { "None": false, "Slightly": true, "Fully Charged": false },
@@ -140,7 +140,7 @@ const drinks = [{
     },
     {
         "name": "Cran Oran Spice Energizer",
-        "img": "/img/cran-orange.png",
+        "img": "https://leahy-ifp.com/wp-content/uploads/2025/03/cran-orange.png",
         "matches": {
             "1": { "Spring": false, "Summer": false, "Fall": true, "Winter": true },
             "2": { "None": false, "Slightly": false, "Fully Charged": true },
@@ -152,7 +152,7 @@ const drinks = [{
     },
     {
         "name": "Cran Mandarin Spice Energizer",
-        "img": "/img/fall.jpg",
+        "img": "https://leahy-ifp.com/wp-content/uploads/2025/03/fall.jpeg",
         "matches": {
             "1": { "Spring": false, "Summer": false, "Fall": true, "Winter": true },
             "2": { "None": false, "Slightly": false, "Fully Charged": true },
@@ -164,7 +164,7 @@ const drinks = [{
     },
     {
         "name": "Blackberry Sage Syrup",
-        "img": "/img/blackberry-sage.png",
+        "img": "https://leahy-ifp.com/wp-content/uploads/2025/03/blackberry-sage.png",
         "matches": {
             "1": { "Spring": false, "Summer": false, "Fall": false, "Winter": true },
             "2": { "None": true, "Slightly": true, "Fully Charged": true },
@@ -176,7 +176,7 @@ const drinks = [{
     },
     {
         "name": "Medicine Ball",
-        "img": "/img/medicine-ball.png",
+        "img": "https://leahy-ifp.com/wp-content/uploads/2025/03/medicine-ball.png",
         "matches": {
             "1": { "Spring": false, "Summer": false, "Fall": false, "Winter": true },
             "2": { "None": true, "Slightly": true, "Fully Charged": true },
@@ -188,7 +188,7 @@ const drinks = [{
     },
     {
         "name": "Strawberry Hibiscus Hydrator",
-        "img": "/img/sh-hydrator.png",
+        "img": "https://leahy-ifp.com/wp-content/uploads/2025/03/sh-hydrator.png",
         "matches": {
             "1": { "Spring": true, "Summer": true, "Fall": false, "Winter": false },
             "2": { "None": true, "Slightly": false, "Fully Charged": false },
@@ -199,8 +199,8 @@ const drinks = [{
         }
     },
     {
-        "name": "Strawberry Hibiscus Refreher",
-        "img": "/img/sh-refresher.png",
+        "name": "Strawberry Hibiscus Refresher",
+        "img": "https://leahy-ifp.com/wp-content/uploads/2025/03/sh-refresher.png",
         "matches": {
             "1": { "Spring": true, "Summer": true, "Fall": false, "Winter": false },
             "2": { "None": false, "Slightly": true, "Fully Charged": false },
@@ -212,7 +212,7 @@ const drinks = [{
     },
     {
         "name": "Strawberry Hibiscus Energizer",
-        "img": "/img/sh-energizer.png",
+        "img": "https://leahy-ifp.com/wp-content/uploads/2025/03/sh-energizer.png",
         "matches": {
             "1": { "Spring": true, "Summer": true, "Fall": false, "Winter": false },
             "2": { "None": false, "Slightly": false, "Fully Charged": true },
@@ -224,7 +224,7 @@ const drinks = [{
     },
     {
         "name": "Pineapple Ginger Hydrator",
-        "img": "/img/pineapple-ginger-hydrator.png",
+        "img": "https://leahy-ifp.com/wp-content/uploads/2025/03/pineapple-ginger-hydrator.png",
         "matches": {
             "1": { "Spring": true, "Summer": true, "Fall": false, "Winter": false },
             "2": { "None": true, "Slightly": false, "Fully Charged": false },
@@ -236,7 +236,7 @@ const drinks = [{
     },
     {
         "name": "Pineapple Ginger Refresher",
-        "img": "/img/pinapple-ginger-refresher.png",
+        "img": "https://leahy-ifp.com/wp-content/uploads/2025/03/pinapple-ginger-refresher.png",
         "matches": {
             "1": { "Spring": true, "Summer": true, "Fall": false, "Winter": false },
             "2": { "None": false, "Slightly": true, "Fully Charged": false },
@@ -248,7 +248,7 @@ const drinks = [{
     },
     {
         "name": "Pineapple Ginger  Energizer",
-        "img": "/img/pineapple-ginger-energizer.png",
+        "img": "https://leahy-ifp.com/wp-content/uploads/2025/03/pineapple-ginger-energizer.png",
         "matches": {
             "1": { "Spring": true, "Summer": true, "Fall": false, "Winter": false },
             "2": { "None": false, "Slightly": false, "Fully Charged": true },
@@ -260,7 +260,7 @@ const drinks = [{
     },
     {
         "name": "Golden Sunrise Refresher - sugar free",
-        "img": "/img/golden-sunrise.png",
+        "img": "https://leahy-ifp.com/wp-content/uploads/2025/03/golden-sunrise.png",
         "matches": {
             "1": { "Spring": true, "Summer": true, "Fall": false, "Winter": false },
             "2": { "None": true, "Slightly": true, "Fully Charged": false },
@@ -272,7 +272,7 @@ const drinks = [{
     },
     {
         "name": "Golden Sunrise Energizer - sugar free",
-        "img": "/img/golden-sunrise.png",
+        "img": "https://leahy-ifp.com/wp-content/uploads/2025/03/golden-sunrise.png",
         "matches": {
             "1": { "Spring": true, "Summer": true, "Fall": false, "Winter": false },
             "2": { "None": false, "Slightly": false, "Fully Charged": true },
@@ -284,7 +284,7 @@ const drinks = [{
     },
     {
         "name": "Protein Orange Juice",
-        "img": "/img/protein-oj.png",
+        "img": "https://leahy-ifp.com/wp-content/uploads/2025/03/protein-oj.png",
         "matches": {
             "1": { "Spring": true, "Summer": true, "Fall": true, "Winter": true },
             "2": { "None": true, "Slightly": false, "Fully Charged": false },
@@ -296,7 +296,7 @@ const drinks = [{
     },
     {
         "name": "Strawberry Lemonade",
-        "img": "/img/strawberry-lemonade.png",
+        "img": "https://leahy-ifp.com/wp-content/uploads/2025/03/strawberry-lemonade.png",
         "matches": {
             "1": { "Spring": false, "Summer": true, "Fall": false, "Winter": false },
             "2": { "None": true, "Slightly": false, "Fully Charged": false },
@@ -308,7 +308,7 @@ const drinks = [{
     },
     {
         "name": "Electric Lemonade",
-        "img": "/img/electric-lemonade.png",
+        "img": "https://leahy-ifp.com/wp-content/uploads/2025/03/electric-lemonade.png",
         "matches": {
             "1": { "Spring": false, "Summer": true, "Fall": false, "Winter": false },
             "2": { "None": false, "Slightly": false, "Fully Charged": true },
@@ -320,7 +320,7 @@ const drinks = [{
     },
     {
         "name": "All Fruit Smoothie",
-        "img": "/img/all-fruit-smoothie.png",
+        "img": "https://leahy-ifp.com/wp-content/uploads/2025/03/all-fruit-smoothie.png",
         "matches": {
             "1": { "Spring": true, "Summer": true, "Fall": true, "Winter": true },
             "2": { "None": true, "Slightly": false, "Fully Charged": false },
@@ -332,7 +332,7 @@ const drinks = [{
     },
     {
         "name": "Coffee Lemonade Shady",
-        "img": "/img/coffee-lemonage.png",
+        "img": "https://leahy-ifp.com/wp-content/uploads/2025/03/coffee-lemonage.png",
         "matches": {
             "1": { "Spring": true, "Summer": true, "Fall": false, "Winter": false },
             "2": { "None": false, "Slightly": true, "Fully Charged": true },

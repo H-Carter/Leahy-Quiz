@@ -99,7 +99,7 @@ body {
     padding: 0px;
     margin: 0px;
     text-align: center;
-    background-image: url("/img/quiz-background.png");
+    background-image: url("https://leahy-ifp.com/wp-content/uploads/2025/03/quiz-background.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -115,8 +115,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100vw;
-    height: 100vh;
+    padding: 20px;
 }
 
 .quiz {
@@ -130,14 +129,17 @@ h1 {
     color: #4cabe8;
     text-transform: uppercase;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 3rem;
+    font-size: clamp(18px, 4.5vw, 3rem);
+    line-height: 1;
 }
 
 h2 {
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 4.5rem;
+    font-size: clamp(22px, 6vw, 4.5rem);
     text-transform: uppercase;
+    margin: 1rem 0px;
+    line-height: 1;
 }
 
 button {
@@ -147,7 +149,7 @@ button {
     margin: 5px;
     cursor: pointer;
     font-family: "Roboto", sans-serif;
-    font-size: 3rem;
+    font-size: clamp(18px, 5vw, 2.8rem);
     font-weight: bold;
     color: black;
     transition-duration: 100ms;
@@ -170,8 +172,8 @@ button:hover {
 
 .options button {
     margin: 10px;
-    width: 180px;
-    height: 180px;
+    width: 260px;
+    height: 260px;
     border-radius: 50%;
 }
 
@@ -186,8 +188,9 @@ button:hover {
 }
 
 .drink-name {
-    font-size: 8rem;
+    font-size: clamp(72px, 12vw, 8em);
     font-family: "Ms Madi", cursive;
+    font-weight: normal;
     background: linear-gradient(90deg, #ff5722, #ff4081);
     text-transform: capitalize;
     background-size: 200% 100%;
@@ -210,17 +213,13 @@ button:hover {
     align-items: center;
 }
 
-.result h2 {
-    font-size: 3.5rem;
-}
-
 .result-col-left {
-    width: 50%;
+    width: 60%;
     text-align: left;
 }
 
 .result-col-right {
-    width: 50%;
+    width: 40%;
     text-align: right;
 }
 
@@ -363,7 +362,6 @@ button:hover {
         display: block;
         position: absolute;
         right: 0px;
-        height: 100vh;
         top: 0px;
         text-align: left;
         background-color: #eee;
