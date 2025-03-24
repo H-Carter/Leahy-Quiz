@@ -99,10 +99,14 @@ body {
     padding: 0px;
     margin: 0px;
     text-align: center;
+    background-image: url("/img/quiz-background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .logo {
-    max-width: 120px;
+    max-width: 520px;
     height: auto;
 }
 
@@ -122,22 +126,38 @@ body {
     align-items: center;
 }
 
+h1 {
+    color: #4cabe8;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+}
+
+h2 {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 4.5rem;
+    text-transform: uppercase;
+}
+
 button {
     border: 2px solid black;
     border-radius: 5px;
-    background-color: #f89729;
+    background-color: #abcd6e;
     margin: 5px;
     cursor: pointer;
     font-family: "Roboto", sans-serif;
-    font-size: 20px;
+    font-size: 3rem;
     font-weight: bold;
     color: black;
     transition-duration: 100ms;
 }
 
 button:hover {
-    color: white;
+    color: #abcd6e;
+    background-color: black;
     transform: scale(105%);
+    border-color: #abcd6e;
 }
 
 .options {
@@ -152,6 +172,7 @@ button:hover {
     margin: 10px;
     width: 180px;
     height: 180px;
+    border-radius: 50%;
 }
 
 #restart-button {
@@ -165,9 +186,10 @@ button:hover {
 }
 
 .drink-name {
-    font-size: 3rem;
-    font-weight: bold;
-    background: linear-gradient(90deg, #ff5722, #ff4081, #3f51b5);
+    font-size: 8rem;
+    font-family: "Ms Madi", cursive;
+    background: linear-gradient(90deg, #ff5722, #ff4081);
+    text-transform: capitalize;
     background-size: 200% 100%;
     color: transparent;
     -webkit-background-clip: text;
@@ -179,6 +201,36 @@ button:hover {
 
 .drink-list {
     display: none;
+}
+
+.result {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.result h2 {
+    font-size: 3.5rem;
+}
+
+.result-col-left {
+    width: 50%;
+    text-align: left;
+}
+
+.result-col-right {
+    width: 50%;
+    text-align: right;
+}
+
+.result-img {
+    max-width: 360px;
+    height: auto;
+    background-image: url("/img/green-circle.png");
+    background-position: bottom center;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 @keyframes reveal {
@@ -303,8 +355,8 @@ button:hover {
     */
     .options button {
         margin: 20px;
-        width: clamp(180px, 10vw, 200px);
-        height: clamp(180px, 10vw, 200px);
+        width: clamp(180px, 12vw, 300px);
+        height: clamp(180px, 12vw, 300px);
     }
     .drink-list {
         width: 275px;

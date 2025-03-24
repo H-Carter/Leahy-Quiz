@@ -22,24 +22,33 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
     <div class="container">
+        <div class="header">
+            <img class="logo" src="/img/bev-instavation-logo.png" alt="BEV InstaVation">
+            <h1>Find Your Next Beverage</h1>
+        </div>
         <div id="quiz" class="quiz">
-            <div class="header">
-                <img class="logo" src="https://leahy-ifp.com/wp-content/uploads/2020/04/NEW-LEAHY-LOGO-Final-150px.png">
-                <h1>Find Your Next Beverage</h1>
-            </div>
             <div class="question-container">
                 <h2 id="question-text"></h2>
             </div>
             <div id="options" class="options"></div>
         </div>
-        <div id="result" class="hidden">
-            <h2>Your Recommended Drink:</h2>
-            <h1 id="drink-name" class="drink-name"></h1>
+        <div id="result" class="hidden result">
+            <div class="result-col-left">
+                <h2>Your Recommended Drink:</h2>
+                <h1 id="drink-name" class="drink-name"></h1>
+            </div>
+            <div class="result-col-right">
+                <img id="result-img" class="result-img" src="">
+            </div>
+        </div>
+        <div class="footer-logo">
+            <img class="logo" src="/img/leahy-logo.png" alt="Leahy-IFP">
         </div>
     </div>
     <div id="drink-list" class="drink-list"></div>
