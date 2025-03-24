@@ -150,7 +150,7 @@ button {
     margin: 5px;
     cursor: pointer;
     font-family: "Roboto", sans-serif;
-    font-size: clamp(18px, 5vw, 2.8rem);
+    font-size: clamp(18px, 5vw, 2.5rem);
     font-weight: bold;
     color: black;
     transition-duration: 100ms;
@@ -345,21 +345,7 @@ button:hover {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 1280px) {
-    /* Style adjustments for viewports that meet the condition */
-    .container {
-        width: calc(100vw - 275px);
-    }
-    /*
-    .options {
-        width: 50vw;
-    }
-    */
-    .options button {
-        margin: 20px;
-        width: clamp(180px, 12vw, 300px);
-        height: clamp(180px, 12vw, 300px);
-    }
+@media only screen and (min-width: 800px) {
     .result {
         flex-direction: row;
     }
@@ -370,6 +356,15 @@ button:hover {
     .result-col-right {
         width: 40%;
         text-align: right;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    /* Style adjustments for viewports that meet the condition */
+    .options button {
+        margin: 20px;
+        width: clamp(180px, 12vw, 300px);
+        height: clamp(180px, 12vw, 300px);
     }
     .drink-list {
         width: 275px;
