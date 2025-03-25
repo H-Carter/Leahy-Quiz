@@ -332,7 +332,7 @@ const drinks = [{
     },
     {
         "name": "Coffee Lemonade Shady",
-        "img": "https://leahy-ifp.com/wp-content/uploads/2025/03/coffee-lemonage.png",
+        "img": "https://leahy-ifp.com/wp-content/uploads/2025/03/coffee-lemonade.png",
         "matches": {
             "1": { "Spring": true, "Summer": true, "Fall": false, "Winter": false },
             "2": { "None": false, "Slightly": true, "Fully Charged": true },
@@ -405,9 +405,12 @@ function calculateResult() {
     const resultDiv = document.getElementById("result");
     const drinkNameElement = document.getElementById("drink-name");
     const resultImg = document.getElementById("result-img");
+    const formDiv = document.getElementById("form");
 
     document.getElementById("quiz").classList.add("hidden");
     resultDiv.classList.remove("hidden");
+    formDiv.classList.remove("hidden");
+
 
     if (matchedDrinks.length > 0) {
         const randomDrink = matchedDrinks[Math.floor(Math.random() * matchedDrinks.length)];
@@ -416,6 +419,9 @@ function calculateResult() {
     } else {
         drinkNameElement.textContent = "No Match Found";
     }
+
+    const drinkField = document.getElementById("block-b1742916090478");
+    drinkField.value = randomDrink.name;
 }
 
 
