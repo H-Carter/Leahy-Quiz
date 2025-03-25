@@ -410,7 +410,7 @@ function calculateResult() {
     document.getElementById("quiz").classList.add("hidden");
     resultDiv.classList.remove("hidden");
     formDiv.classList.remove("hidden");
-    const drinkField = document.getElementById("block-b1742916090478");
+    const drinkField = document.getElementById("b1742916090478");
 
 
     if (matchedDrinks.length > 0) {
