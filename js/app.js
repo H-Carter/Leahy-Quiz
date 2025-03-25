@@ -32,7 +32,7 @@ const questions = [{
 ];
 const drinks = [{
         "name": "Salted Caramel Apple Cider",
-        "img": "https://leahy-ifp.com/wp-content/uploads/2025/03/fall.jpeg",
+        "img": "https://leahy-ifp.com/wp-content/uploads/2025/03/salted-caramal-apple-cider.png",
         "matches": {
             "1": { "Spring": false, "Summer": false, "Fall": true, "Winter": true },
             "2": { "None": true, "Slightly": false, "Fully Charged": false },
@@ -44,7 +44,7 @@ const drinks = [{
     },
     {
         "name": "Salted Caramel Apple Cider Refresher",
-        "img": "https://leahy-ifp.com/wp-content/uploads/2025/03/fall.jpeg",
+        "img": "https://leahy-ifp.com/wp-content/uploads/2025/03/salted-caramal-apple-cider.png",
         "matches": {
             "1": { "Spring": false, "Summer": false, "Fall": true, "Winter": true },
             "2": { "None": false, "Slightly": true, "Fully Charged": false },
@@ -56,7 +56,7 @@ const drinks = [{
     },
     {
         "name": "Salted Caramel Apple Cider Energy",
-        "img": "https://leahy-ifp.com/wp-content/uploads/2025/03/fall.jpeg",
+        "img": "https://leahy-ifp.com/wp-content/uploads/2025/03/salted-caramal-apple-cider.png",
         "matches": {
             "1": { "Spring": false, "Summer": false, "Fall": true, "Winter": true },
             "2": { "None": false, "Slightly": false, "Fully Charged": true },
@@ -104,7 +104,7 @@ const drinks = [{
     },
     {
         "name": "Cran Mandarin Spice",
-        "img": "https://leahy-ifp.com/wp-content/uploads/2025/03/fall.jpeg",
+        "img": "https://leahy-ifp.com/wp-content/uploads/2025/03/cran-mandarin-spice.png",
         "matches": {
             "1": { "Spring": false, "Summer": false, "Fall": true, "Winter": true },
             "2": { "None": true, "Slightly": false, "Fully Charged": false },
@@ -128,7 +128,7 @@ const drinks = [{
     },
     {
         "name": "Cran Mandarin Spice Refresher",
-        "img": "https://leahy-ifp.com/wp-content/uploads/2025/03/fall.jpeg",
+        "img": "https://leahy-ifp.com/wp-content/uploads/2025/03/cran-mandarin-spice.png",
         "matches": {
             "1": { "Spring": false, "Summer": false, "Fall": true, "Winter": true },
             "2": { "None": false, "Slightly": true, "Fully Charged": false },
@@ -152,7 +152,7 @@ const drinks = [{
     },
     {
         "name": "Cran Mandarin Spice Energizer",
-        "img": "https://leahy-ifp.com/wp-content/uploads/2025/03/fall.jpeg",
+        "img": "https://leahy-ifp.com/wp-content/uploads/2025/03/cran-mandarin-spice.png",
         "matches": {
             "1": { "Spring": false, "Summer": false, "Fall": true, "Winter": true },
             "2": { "None": false, "Slightly": false, "Fully Charged": true },
