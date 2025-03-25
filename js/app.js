@@ -410,18 +410,18 @@ function calculateResult() {
     document.getElementById("quiz").classList.add("hidden");
     resultDiv.classList.remove("hidden");
     formDiv.classList.remove("hidden");
+    const drinkField = document.getElementById("block-b1742916090478");
 
 
     if (matchedDrinks.length > 0) {
         const randomDrink = matchedDrinks[Math.floor(Math.random() * matchedDrinks.length)];
         drinkNameElement.textContent = randomDrink.name;
         resultImg.src = randomDrink.img;
+        drinkField.value = randomDrink.name;
     } else {
         drinkNameElement.textContent = "No Match Found";
     }
 
-    const drinkField = document.getElementById("block-b1742916090478");
-    drinkField.value = randomDrink.name;
 }
 
 

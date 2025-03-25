@@ -227,7 +227,7 @@ button:hover {
 .result-img {
     max-width: 360px;
     height: auto;
-    background-image: url("/img/green-circle.png");
+    background-image: url("https://leahy-ifp.com/wp-content/uploads/2025/03/green-circle.png");
     background-position: bottom center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -253,6 +253,10 @@ button:hover {
     to {
         background-position: 200% 0;
     }
+}
+
+.footer-logo {
+    padding: 20px;
 }
 
 
