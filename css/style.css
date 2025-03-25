@@ -200,6 +200,7 @@ button:hover {
     background-clip: text;
     animation: reveal 2s ease forwards, shine 3s infinite linear;
     opacity: 0;
+    padding: 10px;
     /* Start hidden */
 }
 

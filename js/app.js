@@ -331,7 +331,7 @@ const drinks = [{
         }
     },
     {
-        "name": "Coffee Lemonade Shady",
+        "name": "Coffee Lemonade Shandy",
         "img": "https://leahy-ifp.com/wp-content/uploads/2025/03/coffee-lemonade.png",
         "matches": {
             "1": { "Spring": true, "Summer": true, "Fall": false, "Winter": false },
