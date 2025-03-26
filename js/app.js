@@ -427,12 +427,12 @@ function calculateResult() {
         resultImg.src = randomDrink.img;
         // Fill Form
         drinkField.value = randomDrink.name;
-        q1.value = answers[0];
-        q2.value = answers[1];
-        q3.value = answers[2];
-        q4.value = answers[3];
-        q5.value = answers[4];
-        q6.value = answers[5];
+        q1.value = answers[1];
+        q2.value = answers[2];
+        q3.value = answers[3];
+        q4.value = answers[4];
+        q5.value = answers[5];
+        q6.value = answers[6];
     } else {
         drinkNameElement.textContent = "No Match Found";
     }
