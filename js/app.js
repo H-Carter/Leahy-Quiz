@@ -410,14 +410,29 @@ function calculateResult() {
     document.getElementById("quiz").classList.add("hidden");
     resultDiv.classList.remove("hidden");
     formDiv.classList.remove("hidden");
+
+    // Form fields
     const drinkField = document.getElementById("b1742916090478");
+    const q1 = document.getElementById("b1743000909243");
+    const q2 = document.getElementById("b1743000909031");
+    const q3 = document.getElementById("b1743000908818");
+    const q4 = document.getElementById("b1743000908199");
+    const q5 = document.getElementById("b1743000905699");
+    const q6 = document.getElementById("b1743000903904");
 
 
     if (matchedDrinks.length > 0) {
         const randomDrink = matchedDrinks[Math.floor(Math.random() * matchedDrinks.length)];
         drinkNameElement.textContent = randomDrink.name;
         resultImg.src = randomDrink.img;
+        // Fill Form
         drinkField.value = randomDrink.name;
+        q1.value = answers[0];
+        q2.value = answers[1];
+        q3.value = answers[2];
+        q4.value = answers[3];
+        q5.value = answers[4];
+        q6.value = answers[5];
     } else {
         drinkNameElement.textContent = "No Match Found";
     }
